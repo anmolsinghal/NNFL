@@ -1,0 +1,59 @@
+INFO:tensorflow:Using default config.
+WARNING:tensorflow:Using temporary folder as model directory: C:\Users\Aadi\AppData\Local\Temp\tmpedxksojq
+INFO:tensorflow:Using config: {'_model_dir': 'C:\\Users\\Aadi\\AppData\\Local\\Temp\\tmpedxksojq', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': None, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x000001FAF1297B00>, '_task_type': 'worker', '_task_id': 0, '_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Create CheckpointSaverHook.
+2017-11-18 13:13:22.829928: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\platform\cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not
+compiled to use: AVX AVX2
+2017-11-18 13:13:24.661106: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1030] Found device 0 with properties:
+name: GeForce GTX 960M major: 5 minor: 0 memoryClockRate(GHz): 1.176
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.35GiB
+2017-11-18 13:13:24.661298: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+INFO:tensorflow:Saving checkpoints for 1 into C:\Users\Aadi\AppData\Local\Temp\tmpedxksojq\model.ckpt.
+INFO:tensorflow:loss = 8.41945, step = 1
+INFO:tensorflow:global_step/sec: 3.73196
+INFO:tensorflow:loss = 0.678343, step = 101 (26.811 sec)
+INFO:tensorflow:global_step/sec: 3.74235
+INFO:tensorflow:loss = 0.445621, step = 201 (26.706 sec)
+INFO:tensorflow:global_step/sec: 3.74177
+INFO:tensorflow:loss = 1.28289, step = 301 (26.725 sec)
+INFO:tensorflow:global_step/sec: 3.74318
+INFO:tensorflow:loss = 0.539294, step = 401 (26.731 sec)
+INFO:tensorflow:global_step/sec: 3.74396
+INFO:tensorflow:loss = 0.19629, step = 501 (26.694 sec)
+INFO:tensorflow:global_step/sec: 3.74227
+INFO:tensorflow:loss = 0.552722, step = 601 (26.737 sec)
+INFO:tensorflow:global_step/sec: 3.74332
+INFO:tensorflow:loss = 0.186901, step = 701 (26.699 sec)
+INFO:tensorflow:global_step/sec: 3.73992
+INFO:tensorflow:loss = 1.07103, step = 801 (26.739 sec)
+INFO:tensorflow:global_step/sec: 3.74715
+INFO:tensorflow:loss = 0.416799, step = 901 (26.688 sec)
+INFO:tensorflow:global_step/sec: 3.74518
+INFO:tensorflow:loss = 1.39425, step = 1001 (26.700 sec)
+INFO:tensorflow:global_step/sec: 3.74538
+INFO:tensorflow:loss = 0.559115, step = 1101 (26.700 sec)
+INFO:tensorflow:global_step/sec: 3.74664
+INFO:tensorflow:loss = 0.218646, step = 1201 (26.691 sec)
+INFO:tensorflow:global_step/sec: 3.74393
+INFO:tensorflow:loss = 0.525606, step = 1301 (26.710 sec)
+INFO:tensorflow:global_step/sec: 3.73678
+INFO:tensorflow:loss = 0.240466, step = 1401 (26.761 sec)
+INFO:tensorflow:global_step/sec: 3.72425
+INFO:tensorflow:loss = 0.969551, step = 1501 (26.867 sec)
+INFO:tensorflow:global_step/sec: 3.72916
+INFO:tensorflow:loss = 0.411709, step = 1601 (26.800 sec)
+INFO:tensorflow:global_step/sec: 3.72424
+INFO:tensorflow:loss = 1.34544, step = 1701 (26.851 sec)
+INFO:tensorflow:global_step/sec: 3.731
+INFO:tensorflow:loss = 0.491758, step = 1801 (26.802 sec)
+INFO:tensorflow:global_step/sec: 3.7284
+INFO:tensorflow:loss = 0.241268, step = 1901 (26.821 sec)
+INFO:tensorflow:Saving checkpoints for 2000 into C:\Users\Aadi\AppData\Local\Temp\tmpedxksojq\model.ckpt.
+INFO:tensorflow:Loss for final step: 0.635604.
+INFO:tensorflow:Starting evaluation at 2017-11-18-07:52:30
+2017-11-18 13:22:30.681889: I C:\tf_jenkins\home\workspace\rel-win\M\windows-gpu\PY\36\tensorflow\core\common_runtime\gpu\gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 960M, pci bus id: 0000:01:00.0, compute capability: 5.0)
+INFO:tensorflow:Restoring parameters from C:\Users\Aadi\AppData\Local\Temp\tmpedxksojq\model.ckpt-2000
+INFO:tensorflow:Finished evaluation at 2017-11-18-07:52:34
+INFO:tensorflow:Saving dict for global step 2000: accuracy = 0.692521, global_step = 2000, loss = 0.627539
+Testing Accuracy: 0.692521
